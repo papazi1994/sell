@@ -14,6 +14,9 @@ public enum ResultEnum {
     ORDER_DETAIL_EMPTY(16,"订单中无商品"),
     ORDER_PAY_STATUS_ERROR(17,"订单支付状态不正确"),
     PARAM_ERROR(18,"创建订单参数不对"),
+    CART_EMPTY(19,"购物车不能为空"),
+    ORDER_OWNER_ERROR(20,"该订单不属于当前用户"),
+    WXCHAT_MP_ERROR(21,"微信公众号错误"),
    ;
     private Integer code;
 
